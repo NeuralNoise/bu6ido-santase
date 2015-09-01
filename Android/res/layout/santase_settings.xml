@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView android:id="@+id/tvNamePlayer1"
+        android:text="@string/name_player1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+    
+    <EditText android:id="@+id/etNamePlayer1"
+        android:hint="@string/hint_player1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/tvNamePlayer1" />
+    
+    <TextView android:id="@+id/tvNamePlayer2"
+        android:text="@string/name_player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/etNamePlayer1" />
+    
+    <EditText android:id="@+id/etNamePlayer2"
+        android:hint="@string/hint_player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvNamePlayer2"
+        android:layout_below="@id/etNamePlayer1" />
+    
+    <CheckBox android:id="@+id/chkRaising" 
+        android:text="@string/raising" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/etNamePlayer2" />
+    
+    <Button android:id="@+id/btnSave"
+        android:text="@string/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/chkRaising" />
+    
+    <Button android:id="@+id/btnCancel"
+        android:text="@string/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/chkRaising" />
+</RelativeLayout>
