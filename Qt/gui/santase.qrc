@@ -1,0 +1,37 @@
+<RCC>
+  <qresource>
+    <file>images/qsantase.jpg</file>
+
+    <file>images/back.png</file>
+    <file>images/back_horiz.png</file>
+
+    <file>images/nine_clubs.png</file>
+    <file>images/jack_clubs.png</file>
+    <file>images/queen_clubs.png</file>
+    <file>images/king_clubs.png</file>
+    <file>images/ten_clubs.png</file>
+    <file>images/ace_clubs.png</file>
+
+    <file>images/nine_hearts.png</file>
+    <file>images/jack_hearts.png</file>
+    <file>images/queen_hearts.png</file>
+    <file>images/king_hearts.png</file>
+    <file>images/ten_hearts.png</file>
+    <file>images/ace_hearts.png</file>
+
+    <file>images/nine_diamonds.png</file>
+    <file>images/jack_diamonds.png</file>
+    <file>images/queen_diamonds.png</file>
+    <file>images/king_diamonds.png</file>
+    <file>images/ten_diamonds.png</file>
+    <file>images/ace_diamonds.png</file>
+
+    <file>images/nine_spades.png</file>
+    <file>images/jack_spades.png</file>
+    <file>images/queen_spades.png</file>
+    <file>images/king_spades.png</file>
+    <file>images/ten_spades.png</file>
+    <file>images/ace_spades.png</file>
+  </qresource>
+</RCC>
+
